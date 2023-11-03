@@ -1,2 +1,26 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="landing-page">
+	<div class="logo-container">
+		<img src="/logo.png" alt="beautifully logo" />
+	</div>
+	<div class="text-container">
+		<h1>Coming Soon!</h1>
+	</div>
+</div>
+
+<style>
+	.landing-page {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.logo-container {
+		margin-bottom: -7rem;
+	}
+	.text-container {
+		font-family: 'Dream Avenue', sans-serif;
+		font-size: x-large;
+		font-weight: 400;
+		color: #292929;
+	}
+</style>
