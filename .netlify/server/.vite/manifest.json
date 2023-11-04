@@ -34,16 +34,12 @@
     "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout.abd00669.css",
+    "file": "_app/immutable/assets/_layout.1426ca89.css",
     "src": "src/routes/+layout.css"
   },
   "src/routes/+layout.svelte": {
-    "assets": [
-      "_app/immutable/assets/Calgary.419b48d1.woff2",
-      "_app/immutable/assets/Calgary.51ec81c0.woff"
-    ],
     "css": [
-      "_app/immutable/assets/_layout.abd00669.css"
+      "_app/immutable/assets/_layout.1426ca89.css"
     ],
     "file": "entries/pages/_layout.svelte.js",
     "imports": [
@@ -53,12 +49,12 @@
     "src": "src/routes/+layout.svelte"
   },
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page.6d10585f.css",
+    "file": "_app/immutable/assets/_page.b2bc4eec.css",
     "src": "src/routes/+page.css"
   },
   "src/routes/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.6d10585f.css"
+      "_app/immutable/assets/_page.b2bc4eec.css"
     ],
     "file": "entries/pages/_page.svelte.js",
     "imports": [
@@ -66,13 +62,5 @@
     ],
     "isEntry": true,
     "src": "src/routes/+page.svelte"
-  },
-  "static/fonts/Calgary.woff": {
-    "file": "_app/immutable/assets/Calgary.51ec81c0.woff",
-    "src": "static/fonts/Calgary.woff"
-  },
-  "static/fonts/Calgary.woff2": {
-    "file": "_app/immutable/assets/Calgary.419b48d1.woff2",
-    "src": "static/fonts/Calgary.woff2"
   }
 }

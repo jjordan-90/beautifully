@@ -14,11 +14,14 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.text-container {
-		margin-top: -11rem;
-		font-family: 'Cormorant Garamond', serif;
-		color: #292929;
-		font-weight: 300;
-		font-size: 1.5rem;
+	.logo-container img {
+		max-height: 70%;
+		margin-bottom: -10rem;
+	}
+	/* Media query for mobile devices */
+	@media (max-width: 768px) {
+		:global(body) {
+			font-size: 1rem; /* Adjust the font size for mobile screens */
+		}
 	}
 </style>

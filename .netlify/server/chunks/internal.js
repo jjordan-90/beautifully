@@ -106,7 +106,7 @@ const options = {
   root: Root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="preconnect" href="https://fonts.googleapis.com" />\n		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n		<link\n			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"\n			rel="stylesheet"\n		/>\n		<link rel="icon" href="/favicon2.png" type="image/x-icon" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n",
+    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="/icons/favicon.ico" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n\n		<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />\n		<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />\n		<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />\n		<link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png" />\n		<link rel="icon" type="image/png" sizes="512x512" href="/icons/android-chrome-512x512.png" />\n\n		<link rel="preconnect" href="https://fonts.googleapis.com" />\n		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n		<link\n			href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"\n			rel="stylesheet"\n		/>\n\n		' + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n",
     error: ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
@@ -168,7 +168,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "6r3j7f"
+  version_hash: "7b8f08"
 };
 function get_hooks() {
   return {};
