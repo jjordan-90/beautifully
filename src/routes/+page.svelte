@@ -3,7 +3,7 @@
 		<img src="/logo.png" alt="beautifully logo" />
 	</div>
 	<div class="text-container">
-		<h1>Coming Soon!</h1>
+		<h1>Coming Soon</h1>
 	</div>
 </div>
 
@@ -14,11 +14,11 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.logo-container {
-		margin-bottom: -7rem;
-	}
 	.text-container {
-		font-family: 'Calgary', serif;
+		margin-top: -11rem;
+		font-family: 'Cormorant Garamond', serif;
 		color: #292929;
+		font-weight: 300;
+		font-size: 1.5rem;
 	}
 </style>

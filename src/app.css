@@ -11,10 +11,3 @@ img {
 a {
 	text-decoration: none;
 }
-@font-face {
-	font-family: 'Calgary';
-	src: url('/static/fonts/Calgary.woff2') format('woff2'),
-		url('/static/fonts/Calgary.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
