@@ -21,6 +21,7 @@
 	/* Media query for mobile devices */
 	@media (max-width: 768px) {
 		:global(body) {
+			font-family: 'font-family: ' Cormorant Garamond ', serif;';
 			font-size: 1rem; /* Adjust the font size for mobile screens */
 		}
 	}
