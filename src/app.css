@@ -12,7 +12,9 @@ a {
 	text-decoration: none;
 }
 @font-face {
-	font-family: 'Dream Avenue';
-	src: url('https: //jjordan -90github .io/dream_avenue_font/dream_avenue_.woff') format('woff');
-	src: url('https: //jjordan -90github .io/dream_avenue_font/dream_avenue_.woff2') format('woff2');
+	font-family: 'Calgary';
+	src: url('/static/fonts/Calgary.woff2') format('woff2'),
+		url('/static/fonts/Calgary.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }

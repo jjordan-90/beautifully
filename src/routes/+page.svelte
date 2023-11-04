@@ -18,9 +18,7 @@
 		margin-bottom: -7rem;
 	}
 	.text-container {
-		font-family: 'Dream Avenue', sans-serif;
-		font-size: x-large;
-		font-weight: 400;
+		font-family: 'Calgary', serif;
 		color: #292929;
 	}
 </style>
